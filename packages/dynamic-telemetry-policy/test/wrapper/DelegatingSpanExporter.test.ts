@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import { expect } from 'expect';
-import { DelegatingSpanExporter, setSpanExporterEnabled } from '../../src/wrapper/DelegatingSpanExporter';
+import { DelegatingSpanExporter, setSpanExporterEnabled } from '../../src/wrapper/DelegatingSpanExporter.js';
 import { ExportResultCode } from '@opentelemetry/core';
 import type { ExportResult } from '@opentelemetry/core';
 import type { ReadableSpan, SpanExporter } from '@opentelemetry/sdk-trace-base';

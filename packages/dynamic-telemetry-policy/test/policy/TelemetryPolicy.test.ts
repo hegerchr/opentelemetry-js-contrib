@@ -15,8 +15,8 @@
  */
 
 import { expect } from 'expect';
-import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy';
-import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy';
+import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy.js';
+import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy.js';
 
 describe('TelemetryPolicy', () => {
   it('stores the type', () => {

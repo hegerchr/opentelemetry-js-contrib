@@ -15,8 +15,8 @@
  */
 
 import { expect } from 'expect';
-import { JsonSourceWrapper } from '../../src/source/JsonSourceWrapper';
-import { SourceFormat } from '../../src/source/SourceFormat';
+import { JsonSourceWrapper } from '../../src/source/JsonSourceWrapper.js';
+import { SourceFormat } from '../../src/source/SourceFormat.js';
 
 describe('JsonSourceWrapper', () => {
   it('creates from single-key object', () => {

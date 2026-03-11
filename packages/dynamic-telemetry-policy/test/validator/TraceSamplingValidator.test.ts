@@ -15,10 +15,10 @@
  */
 
 import { expect } from 'expect';
-import { TraceSamplingValidator } from '../../src/validator/TraceSamplingValidator';
-import { JsonSourceWrapper } from '../../src/source/JsonSourceWrapper';
-import { KeyValueSourceWrapper } from '../../src/source/KeyValueSourceWrapper';
-import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy';
+import { TraceSamplingValidator } from '../../src/validator/TraceSamplingValidator.js';
+import { JsonSourceWrapper } from '../../src/source/JsonSourceWrapper.js';
+import { KeyValueSourceWrapper } from '../../src/source/KeyValueSourceWrapper.js';
+import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy.js';
 
 describe('TraceSamplingValidator', () => {
   const validator = new TraceSamplingValidator();

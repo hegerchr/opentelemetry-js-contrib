@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 import { expect } from 'expect';
-import { OpampPollingIntervalPolicyImplementer } from '../../src/implementer/OpampPollingIntervalPolicyImplementer';
-import { OpampPollingIntervalPolicy } from '../../src/policy/OpampPollingIntervalPolicy';
-import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy';
+import { OpampPollingIntervalPolicyImplementer } from '../../src/implementer/OpampPollingIntervalPolicyImplementer.js';
+import { OpampPollingIntervalPolicy } from '../../src/policy/OpampPollingIntervalPolicy.js';
+import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy.js';
 
 describe('OpampPollingIntervalPolicyImplementer', () => {
   it('has OpampPollingIntervalValidator', () => {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import { expect } from 'expect';
-import { DelegatingSampler, setSamplerEnabled } from '../../src/wrapper/DelegatingSampler';
+import { DelegatingSampler, setSamplerEnabled } from '../../src/wrapper/DelegatingSampler.js';
 import { SamplingDecision, AlwaysOnSampler, AlwaysOffSampler } from '@opentelemetry/sdk-trace-base';
 import { ROOT_CONTEXT, SpanKind } from '@opentelemetry/api';
 
