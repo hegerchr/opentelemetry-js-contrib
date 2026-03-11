@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import type { PolicyImplementer } from '../implementer/PolicyImplementer.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { TelemetryPolicy as TelemetryPolicyClass } from '../policy/TelemetryPolicy.js';
+import type { PolicyImplementer } from '../implementer/PolicyImplementer';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { TelemetryPolicy as TelemetryPolicyClass } from '../policy/TelemetryPolicy';
 
 function serializePolicy(policy: TelemetryPolicy): string {
   return JSON.stringify(policy);

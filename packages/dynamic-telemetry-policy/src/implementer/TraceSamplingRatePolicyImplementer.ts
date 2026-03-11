@@ -15,12 +15,12 @@
  */
 
 import { AlwaysOnSampler, ParentBasedSampler, TraceIdRatioBasedSampler } from '@opentelemetry/sdk-trace-base';
-import { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { TraceSamplingRatePolicy } from '../policy/TraceSamplingRatePolicy.js';
-import { TraceSamplingValidator } from '../validator/TraceSamplingValidator.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import { DelegatingSampler } from '../wrapper/DelegatingSampler.js';
-import type { PolicyImplementer } from './PolicyImplementer.js';
+import { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { TraceSamplingRatePolicy } from '../policy/TraceSamplingRatePolicy';
+import { TraceSamplingValidator } from '../validator/TraceSamplingValidator';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import { DelegatingSampler } from '../wrapper/DelegatingSampler';
+import type { PolicyImplementer } from './PolicyImplementer';
 
 export class TraceSamplingRatePolicyImplementer implements PolicyImplementer {
   getValidators(): PolicyValidator[] {

@@ -15,53 +15,53 @@
  */
 
 // Policy types
-export { TelemetryPolicy } from './policy/TelemetryPolicy.js';
-export { TraceSamplingRatePolicy } from './policy/TraceSamplingRatePolicy.js';
-export { TraceExportEnabledPolicy } from './policy/TraceExportEnabledPolicy.js';
-export { MetricExportEnabledPolicy } from './policy/MetricExportEnabledPolicy.js';
-export { LogExportEnabledPolicy } from './policy/LogExportEnabledPolicy.js';
-export { OpampPollingIntervalPolicy } from './policy/OpampPollingIntervalPolicy.js';
+export { TelemetryPolicy } from './policy/TelemetryPolicy';
+export { TraceSamplingRatePolicy } from './policy/TraceSamplingRatePolicy';
+export { TraceExportEnabledPolicy } from './policy/TraceExportEnabledPolicy';
+export { MetricExportEnabledPolicy } from './policy/MetricExportEnabledPolicy';
+export { LogExportEnabledPolicy } from './policy/LogExportEnabledPolicy';
+export { OpampPollingIntervalPolicy } from './policy/OpampPollingIntervalPolicy';
 
 // Source
-export { SourceFormat, parseSource, parseJsonSource, parseKeyValueSource } from './source/SourceFormat.js';
-export type { SourceWrapper } from './source/SourceWrapper.js';
-export { JsonSourceWrapper } from './source/JsonSourceWrapper.js';
-export { KeyValueSourceWrapper } from './source/KeyValueSourceWrapper.js';
+export { SourceFormat, parseSource, parseJsonSource, parseKeyValueSource } from './source/SourceFormat';
+export type { SourceWrapper } from './source/SourceWrapper';
+export { JsonSourceWrapper } from './source/JsonSourceWrapper';
+export { KeyValueSourceWrapper } from './source/KeyValueSourceWrapper';
 
 // Validators
-export type { PolicyValidator } from './validator/PolicyValidator.js';
-export { AbstractSourcePolicyValidator } from './validator/AbstractSourcePolicyValidator.js';
-export { TraceSamplingValidator } from './validator/TraceSamplingValidator.js';
-export { TraceExportEnabledValidator } from './validator/TraceExportEnabledValidator.js';
-export { MetricExportEnabledValidator } from './validator/MetricExportEnabledValidator.js';
-export { LogExportEnabledValidator } from './validator/LogExportEnabledValidator.js';
-export { OpampPollingIntervalValidator } from './validator/OpampPollingIntervalValidator.js';
+export type { PolicyValidator } from './validator/PolicyValidator';
+export { AbstractSourcePolicyValidator } from './validator/AbstractSourcePolicyValidator';
+export { TraceSamplingValidator } from './validator/TraceSamplingValidator';
+export { TraceExportEnabledValidator } from './validator/TraceExportEnabledValidator';
+export { MetricExportEnabledValidator } from './validator/MetricExportEnabledValidator';
+export { LogExportEnabledValidator } from './validator/LogExportEnabledValidator';
+export { OpampPollingIntervalValidator } from './validator/OpampPollingIntervalValidator';
 
 // Wrappers
-export { DelegatingSampler, setSamplerEnabled } from './wrapper/DelegatingSampler.js';
-export { DelegatingSpanExporter, setSpanExporterEnabled } from './wrapper/DelegatingSpanExporter.js';
-export { DelegatingMetricExporter, setMetricExporterEnabled } from './wrapper/DelegatingMetricExporter.js';
-export { DelegatingLogRecordExporter, setLogExporterEnabled } from './wrapper/DelegatingLogRecordExporter.js';
+export { DelegatingSampler, setSamplerEnabled } from './wrapper/DelegatingSampler';
+export { DelegatingSpanExporter, setSpanExporterEnabled } from './wrapper/DelegatingSpanExporter';
+export { DelegatingMetricExporter, setMetricExporterEnabled } from './wrapper/DelegatingMetricExporter';
+export { DelegatingLogRecordExporter, setLogExporterEnabled } from './wrapper/DelegatingLogRecordExporter';
 
 // Implementers
-export type { PolicyImplementer } from './implementer/PolicyImplementer.js';
-export { TraceSamplingRatePolicyImplementer } from './implementer/TraceSamplingRatePolicyImplementer.js';
-export { TraceExportEnabledPolicyImplementer } from './implementer/TraceExportEnabledPolicyImplementer.js';
-export { MetricExportEnabledPolicyImplementer } from './implementer/MetricExportEnabledPolicyImplementer.js';
-export { LogExportEnabledPolicyImplementer } from './implementer/LogExportEnabledPolicyImplementer.js';
-export { OpampPollingIntervalPolicyImplementer } from './implementer/OpampPollingIntervalPolicyImplementer.js';
+export type { PolicyImplementer } from './implementer/PolicyImplementer';
+export { TraceSamplingRatePolicyImplementer } from './implementer/TraceSamplingRatePolicyImplementer';
+export { TraceExportEnabledPolicyImplementer } from './implementer/TraceExportEnabledPolicyImplementer';
+export { MetricExportEnabledPolicyImplementer } from './implementer/MetricExportEnabledPolicyImplementer';
+export { LogExportEnabledPolicyImplementer } from './implementer/LogExportEnabledPolicyImplementer';
+export { OpampPollingIntervalPolicyImplementer } from './implementer/OpampPollingIntervalPolicyImplementer';
 
 // Store
-export { PolicyStore } from './store/PolicyStore.js';
+export { PolicyStore } from './store/PolicyStore';
 
 // Providers
-export type { PolicyProvider } from './provider/PolicyProvider.js';
-export { LinePerPolicyFileProvider } from './provider/LinePerPolicyFileProvider.js';
-export { OpampPolicyProvider } from './provider/OpampPolicyProvider.js';
+export type { PolicyProvider } from './provider/PolicyProvider';
+export { LinePerPolicyFileProvider } from './provider/LinePerPolicyFileProvider';
+export { OpampPolicyProvider } from './provider/OpampPolicyProvider';
 
 // Config
-export type { PolicyInitConfig, PolicySourceConfig, PolicyMappingTypeAndKey } from './config/PolicyInitConfig.js';
-export { PolicyInitConfigReader } from './config/PolicyInitConfigReader.js';
+export type { PolicyInitConfig, PolicySourceConfig, PolicyMappingTypeAndKey } from './config/PolicyInitConfig';
+export { PolicyInitConfigReader } from './config/PolicyInitConfigReader';
 
 // Registry
-export { PolicyRegistry } from './registry/PolicyRegistry.js';
+export { PolicyRegistry } from './registry/PolicyRegistry';

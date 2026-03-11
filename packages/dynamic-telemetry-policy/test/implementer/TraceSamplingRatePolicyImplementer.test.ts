@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 import { expect } from 'expect';
-import { TraceSamplingRatePolicyImplementer } from '../../src/implementer/TraceSamplingRatePolicyImplementer.js';
-import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy.js';
-import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy.js';
-import { DelegatingSampler, setSamplerEnabled } from '../../src/wrapper/DelegatingSampler.js';
+import { TraceSamplingRatePolicyImplementer } from '../../src/implementer/TraceSamplingRatePolicyImplementer';
+import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy';
+import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy';
+import { DelegatingSampler, setSamplerEnabled } from '../../src/wrapper/DelegatingSampler';
 import { AlwaysOnSampler } from '@opentelemetry/sdk-trace-base';
 
 afterEach(() => { setSamplerEnabled(true); DelegatingSampler.setDelegate(new AlwaysOnSampler()); });

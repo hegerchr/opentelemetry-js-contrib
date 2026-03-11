@@ -16,7 +16,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import type { PolicyInitConfig, PolicySourceConfig } from './PolicyInitConfig.js';
+import type { PolicyInitConfig, PolicySourceConfig } from './PolicyInitConfig';
 
 export class PolicyInitConfigReader {
   read(filePath: string): PolicyInitConfig {

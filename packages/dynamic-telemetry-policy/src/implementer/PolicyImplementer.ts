@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
 
 export interface PolicyImplementer {
   getValidators(): PolicyValidator[];

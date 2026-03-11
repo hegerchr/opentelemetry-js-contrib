@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-import { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { MetricExportEnabledPolicy } from '../policy/MetricExportEnabledPolicy.js';
-import { MetricExportEnabledValidator } from '../validator/MetricExportEnabledValidator.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import { DelegatingMetricExporter } from '../wrapper/DelegatingMetricExporter.js';
-import type { PolicyImplementer } from './PolicyImplementer.js';
+import { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { MetricExportEnabledPolicy } from '../policy/MetricExportEnabledPolicy';
+import { MetricExportEnabledValidator } from '../validator/MetricExportEnabledValidator';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import { DelegatingMetricExporter } from '../wrapper/DelegatingMetricExporter';
+import type { PolicyImplementer } from './PolicyImplementer';
 
 export class MetricExportEnabledPolicyImplementer implements PolicyImplementer {
   getValidators(): PolicyValidator[] {

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import { JsonSourceWrapper } from './JsonSourceWrapper.js';
-import { KeyValueSourceWrapper } from './KeyValueSourceWrapper.js';
-import type { SourceWrapper } from './SourceWrapper.js';
+import { JsonSourceWrapper } from './JsonSourceWrapper';
+import { KeyValueSourceWrapper } from './KeyValueSourceWrapper';
+import type { SourceWrapper } from './SourceWrapper';
 
 export enum SourceFormat {
   JSON = 'JSON',

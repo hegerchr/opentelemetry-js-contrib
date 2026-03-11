@@ -17,7 +17,7 @@ import { expect } from 'expect';
 import * as fs from 'fs';
 import * as os from 'os';
 import * as path from 'path';
-import { PolicyInitConfigReader } from '../../src/config/PolicyInitConfigReader.js';
+import { PolicyInitConfigReader } from '../../src/config/PolicyInitConfigReader';
 
 describe('PolicyInitConfigReader', () => {
   let tmpDir: string;

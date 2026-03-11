@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-import type { PolicyInitConfig } from '../config/PolicyInitConfig.js';
-import { PolicyInitConfigReader } from '../config/PolicyInitConfigReader.js';
-import { PolicyStore } from '../store/PolicyStore.js';
-import { LinePerPolicyFileProvider } from '../provider/LinePerPolicyFileProvider.js';
-import { OpampPolicyProvider } from '../provider/OpampPolicyProvider.js';
-import { TraceSamplingRatePolicyImplementer } from '../implementer/TraceSamplingRatePolicyImplementer.js';
-import { TraceExportEnabledPolicyImplementer } from '../implementer/TraceExportEnabledPolicyImplementer.js';
-import { MetricExportEnabledPolicyImplementer } from '../implementer/MetricExportEnabledPolicyImplementer.js';
-import { LogExportEnabledPolicyImplementer } from '../implementer/LogExportEnabledPolicyImplementer.js';
-import { OpampPollingIntervalPolicyImplementer } from '../implementer/OpampPollingIntervalPolicyImplementer.js';
-import { TraceSamplingValidator } from '../validator/TraceSamplingValidator.js';
-import { TraceExportEnabledValidator } from '../validator/TraceExportEnabledValidator.js';
-import { MetricExportEnabledValidator } from '../validator/MetricExportEnabledValidator.js';
-import { LogExportEnabledValidator } from '../validator/LogExportEnabledValidator.js';
-import { OpampPollingIntervalValidator } from '../validator/OpampPollingIntervalValidator.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import type { PolicyImplementer } from '../implementer/PolicyImplementer.js';
+import type { PolicyInitConfig } from '../config/PolicyInitConfig';
+import { PolicyInitConfigReader } from '../config/PolicyInitConfigReader';
+import { PolicyStore } from '../store/PolicyStore';
+import { LinePerPolicyFileProvider } from '../provider/LinePerPolicyFileProvider';
+import { OpampPolicyProvider } from '../provider/OpampPolicyProvider';
+import { TraceSamplingRatePolicyImplementer } from '../implementer/TraceSamplingRatePolicyImplementer';
+import { TraceExportEnabledPolicyImplementer } from '../implementer/TraceExportEnabledPolicyImplementer';
+import { MetricExportEnabledPolicyImplementer } from '../implementer/MetricExportEnabledPolicyImplementer';
+import { LogExportEnabledPolicyImplementer } from '../implementer/LogExportEnabledPolicyImplementer';
+import { OpampPollingIntervalPolicyImplementer } from '../implementer/OpampPollingIntervalPolicyImplementer';
+import { TraceSamplingValidator } from '../validator/TraceSamplingValidator';
+import { TraceExportEnabledValidator } from '../validator/TraceExportEnabledValidator';
+import { MetricExportEnabledValidator } from '../validator/MetricExportEnabledValidator';
+import { LogExportEnabledValidator } from '../validator/LogExportEnabledValidator';
+import { OpampPollingIntervalValidator } from '../validator/OpampPollingIntervalValidator';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import type { PolicyImplementer } from '../implementer/PolicyImplementer';
 
 type PolicyRegistryEntry = {
   createValidator(): PolicyValidator;

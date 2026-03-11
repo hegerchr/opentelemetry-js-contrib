@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
 
 export interface PolicyProvider {
   fetchPolicies(): TelemetryPolicy[];

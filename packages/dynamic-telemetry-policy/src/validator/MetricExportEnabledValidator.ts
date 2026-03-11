@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import { MetricExportEnabledPolicy } from '../policy/MetricExportEnabledPolicy.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { AbstractSourcePolicyValidator } from './AbstractSourcePolicyValidator.js';
+import { MetricExportEnabledPolicy } from '../policy/MetricExportEnabledPolicy';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { AbstractSourcePolicyValidator } from './AbstractSourcePolicyValidator';
 
 export class MetricExportEnabledValidator extends AbstractSourcePolicyValidator {
   getPolicyType(): string {

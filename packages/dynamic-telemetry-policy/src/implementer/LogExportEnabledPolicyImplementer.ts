@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-import { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { LogExportEnabledPolicy } from '../policy/LogExportEnabledPolicy.js';
-import { LogExportEnabledValidator } from '../validator/LogExportEnabledValidator.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import { DelegatingLogRecordExporter } from '../wrapper/DelegatingLogRecordExporter.js';
-import type { PolicyImplementer } from './PolicyImplementer.js';
+import { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { LogExportEnabledPolicy } from '../policy/LogExportEnabledPolicy';
+import { LogExportEnabledValidator } from '../validator/LogExportEnabledValidator';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import { DelegatingLogRecordExporter } from '../wrapper/DelegatingLogRecordExporter';
+import type { PolicyImplementer } from './PolicyImplementer';
 
 export class LogExportEnabledPolicyImplementer implements PolicyImplementer {
   getValidators(): PolicyValidator[] {

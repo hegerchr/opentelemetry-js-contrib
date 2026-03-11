@@ -15,7 +15,7 @@
  */
 
 import { expect } from 'expect';
-import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy.js';
+import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy';
 
 describe('TraceSamplingRatePolicy', () => {
   it('creates with valid probability', () => {

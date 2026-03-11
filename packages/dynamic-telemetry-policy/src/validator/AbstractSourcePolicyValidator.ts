@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import { SourceFormat } from '../source/SourceFormat.js';
-import type { SourceWrapper } from '../source/SourceWrapper.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import type { PolicyValidator } from './PolicyValidator.js';
+import { SourceFormat } from '../source/SourceFormat';
+import type { SourceWrapper } from '../source/SourceWrapper';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import type { PolicyValidator } from './PolicyValidator';
 
 export abstract class AbstractSourcePolicyValidator implements PolicyValidator {
   abstract getPolicyType(): string;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import { OpampPollingIntervalPolicy } from '../policy/OpampPollingIntervalPolicy.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { AbstractSourcePolicyValidator } from './AbstractSourcePolicyValidator.js';
+import { OpampPollingIntervalPolicy } from '../policy/OpampPollingIntervalPolicy';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { AbstractSourcePolicyValidator } from './AbstractSourcePolicyValidator';
 
 export class OpampPollingIntervalValidator extends AbstractSourcePolicyValidator {
   getPolicyType(): string {

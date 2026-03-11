@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 import { expect } from 'expect';
-import { PolicyStore } from '../../src/store/PolicyStore.js';
-import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy.js';
-import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy.js';
-import type { PolicyImplementer } from '../../src/implementer/PolicyImplementer.js';
-import { TraceSamplingValidator } from '../../src/validator/TraceSamplingValidator.js';
+import { PolicyStore } from '../../src/store/PolicyStore';
+import { TraceSamplingRatePolicy } from '../../src/policy/TraceSamplingRatePolicy';
+import { TelemetryPolicy } from '../../src/policy/TelemetryPolicy';
+import type { PolicyImplementer } from '../../src/implementer/PolicyImplementer';
+import { TraceSamplingValidator } from '../../src/validator/TraceSamplingValidator';
 
 describe('PolicyStore', () => {
   it('notifies implementer on new policy', () => {

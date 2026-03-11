@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import type { SourceWrapper } from '../source/SourceWrapper.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
+import type { SourceWrapper } from '../source/SourceWrapper';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
 
 export interface PolicyValidator {
   validate(source: SourceWrapper): TelemetryPolicy | null;

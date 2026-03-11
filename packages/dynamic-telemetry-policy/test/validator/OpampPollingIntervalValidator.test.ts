@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 import { expect } from 'expect';
-import { OpampPollingIntervalValidator } from '../../src/validator/OpampPollingIntervalValidator.js';
-import { JsonSourceWrapper } from '../../src/source/JsonSourceWrapper.js';
-import { KeyValueSourceWrapper } from '../../src/source/KeyValueSourceWrapper.js';
-import { OpampPollingIntervalPolicy } from '../../src/policy/OpampPollingIntervalPolicy.js';
+import { OpampPollingIntervalValidator } from '../../src/validator/OpampPollingIntervalValidator';
+import { JsonSourceWrapper } from '../../src/source/JsonSourceWrapper';
+import { KeyValueSourceWrapper } from '../../src/source/KeyValueSourceWrapper';
+import { OpampPollingIntervalPolicy } from '../../src/policy/OpampPollingIntervalPolicy';
 
 describe('OpampPollingIntervalValidator', () => {
   const validator = new OpampPollingIntervalValidator();

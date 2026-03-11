@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { SourceFormat } from './SourceFormat.js';
-import type { SourceWrapper } from './SourceWrapper.js';
+import { SourceFormat } from './SourceFormat';
+import type { SourceWrapper } from './SourceWrapper';
 
 export class JsonSourceWrapper implements SourceWrapper {
   private readonly key: string;

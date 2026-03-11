@@ -15,8 +15,8 @@
  */
 
 import { expect } from 'expect';
-import { KeyValueSourceWrapper } from '../../src/source/KeyValueSourceWrapper.js';
-import { SourceFormat } from '../../src/source/SourceFormat.js';
+import { KeyValueSourceWrapper } from '../../src/source/KeyValueSourceWrapper';
+import { SourceFormat } from '../../src/source/SourceFormat';
 
 describe('KeyValueSourceWrapper', () => {
   it('returns format KEYVALUE', () => {

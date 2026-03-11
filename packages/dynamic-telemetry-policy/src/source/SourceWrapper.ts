@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type { SourceFormat } from './SourceFormat.js';
+import type { SourceFormat } from './SourceFormat';
 
 export interface SourceWrapper {
   getFormat(): SourceFormat;

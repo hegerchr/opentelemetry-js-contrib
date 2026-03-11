@@ -15,10 +15,10 @@
  */
 
 import * as fs from 'fs';
-import type { PolicyProvider } from './PolicyProvider.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { parseSource, SourceFormat } from '../source/SourceFormat.js';
+import type { PolicyProvider } from './PolicyProvider';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { parseSource, SourceFormat } from '../source/SourceFormat';
 
 export class LinePerPolicyFileProvider implements PolicyProvider {
   constructor(

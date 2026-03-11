@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-import { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { TraceExportEnabledPolicy } from '../policy/TraceExportEnabledPolicy.js';
-import { TraceExportEnabledValidator } from '../validator/TraceExportEnabledValidator.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import { DelegatingSpanExporter } from '../wrapper/DelegatingSpanExporter.js';
-import type { PolicyImplementer } from './PolicyImplementer.js';
+import { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { TraceExportEnabledPolicy } from '../policy/TraceExportEnabledPolicy';
+import { TraceExportEnabledValidator } from '../validator/TraceExportEnabledValidator';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import { DelegatingSpanExporter } from '../wrapper/DelegatingSpanExporter';
+import type { PolicyImplementer } from './PolicyImplementer';
 
 export class TraceExportEnabledPolicyImplementer implements PolicyImplementer {
   getValidators(): PolicyValidator[] {

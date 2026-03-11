@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { TelemetryPolicy } from './TelemetryPolicy.js';
+import { TelemetryPolicy } from './TelemetryPolicy';
 
 export class MetricExportEnabledPolicy extends TelemetryPolicy {
   constructor(public readonly enabled: boolean) {

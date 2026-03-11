@@ -15,7 +15,7 @@
  */
 
 import { expect } from 'expect';
-import { parseJsonSource, parseKeyValueSource, parseSource, SourceFormat } from '../../src/source/SourceFormat.js';
+import { parseJsonSource, parseKeyValueSource, parseSource, SourceFormat } from '../../src/source/SourceFormat';
 
 describe('parseJsonSource', () => {
   it('parses single-key JSON object', () => {

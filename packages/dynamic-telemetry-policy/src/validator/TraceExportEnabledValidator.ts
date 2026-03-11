@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import { TraceExportEnabledPolicy } from '../policy/TraceExportEnabledPolicy.js';
-import type { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { AbstractSourcePolicyValidator } from './AbstractSourcePolicyValidator.js';
+import { TraceExportEnabledPolicy } from '../policy/TraceExportEnabledPolicy';
+import type { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { AbstractSourcePolicyValidator } from './AbstractSourcePolicyValidator';
 
 export class TraceExportEnabledValidator extends AbstractSourcePolicyValidator {
   getPolicyType(): string {

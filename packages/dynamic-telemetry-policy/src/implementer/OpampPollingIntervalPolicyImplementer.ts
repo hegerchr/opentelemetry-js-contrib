@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import { TelemetryPolicy } from '../policy/TelemetryPolicy.js';
-import { OpampPollingIntervalPolicy } from '../policy/OpampPollingIntervalPolicy.js';
-import { OpampPollingIntervalValidator } from '../validator/OpampPollingIntervalValidator.js';
-import type { PolicyValidator } from '../validator/PolicyValidator.js';
-import type { PolicyImplementer } from './PolicyImplementer.js';
+import { TelemetryPolicy } from '../policy/TelemetryPolicy';
+import { OpampPollingIntervalPolicy } from '../policy/OpampPollingIntervalPolicy';
+import { OpampPollingIntervalValidator } from '../validator/OpampPollingIntervalValidator';
+import type { PolicyValidator } from '../validator/PolicyValidator';
+import type { PolicyImplementer } from './PolicyImplementer';
 
 export interface PollingIntervalSettable {
   setPollingInterval(ms: number): void;
